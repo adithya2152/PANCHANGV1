@@ -1,0 +1,64 @@
+header
+{
+  background-color: yellow;
+}
+
+
+
+header>p 
+{
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Playwrite NZ", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 20px;
+}
+.DataContainer {
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  padding: 20px; 
+  margin: 20px;
+}
+
+
+
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px; 
+  margin: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+input {
+  padding: 10px;
+  margin: 5px 0; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
