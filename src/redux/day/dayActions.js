@@ -18,7 +18,7 @@ const fetchUserFailure = (error) => ({
 export const fetchData = (day, month, year, time) => {
   return (dispatch) => {
     dispatch(fetchUserRequest());
-    axios.get(`https://astrology.rscsys.in/panchang`, {
+    axios.get(`https://cors-anywhere.herokuapp.com/https://astrology.rscsys.in/panchang`, {
       params: {
         year: year,
         month: month,
