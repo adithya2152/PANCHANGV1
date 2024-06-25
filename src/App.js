@@ -4,6 +4,7 @@ import { Provider } from "react-redux";
 import store from "./redux/store";
 import InputArea from "./components/InputArea";
 import { Header } from "./components/Header";
+import Footer from "./components/Footer";
 // import Data from "./components/Data";
 
 
@@ -39,6 +40,7 @@ function App() {
       )}
       {/* <Data/> */}
     </div>
+    <Footer/>
     </Provider>
   );
 }
